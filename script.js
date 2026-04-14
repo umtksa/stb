@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Title
             const titleDiv = document.createElement('div');
             titleDiv.className = 'absolute top-[30px] left-[45px] text-[16px] font-bold text-[#000000] truncate max-w-[800px]';
-            titleDiv.textContent = title || 'Film Başlığı';
+            titleDiv.textContent = title || 'Title';
             slideDiv.appendChild(titleDiv);
 
             // Grid
